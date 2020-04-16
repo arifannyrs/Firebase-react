@@ -11,9 +11,6 @@ const Join = () => {
 
     const Auth = useContext(AuthContext);
     const handleForm = e => {
-        /*e.preventDefault();
-        console.log(Auth);
-        Auth.setLoggedIn(true);*/
         e.preventDefault();
         firebase
             .auth()
